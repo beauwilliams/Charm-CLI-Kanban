@@ -25,7 +25,7 @@ func (t Task) FilterValue() string {
 	return t.title
 }
 
-func (t Task) FilterKey() string {
+func (t Task) Title() string {
 	return t.title
 }
 
